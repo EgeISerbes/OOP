@@ -22,7 +22,7 @@ public class LetterNote extends UserLogin{
     {   
         LetterNote y  = new LetterNote();
         int toplam = 0;
-        toplam+= x[i][0][tempID -1]*0.4 +x[i][0][tempID -1]*0.6; // Vize %40 , Final %60 şeklinde
+        toplam+= x[i][0][tempID -1]*0.4 +x[i][1][tempID -1]*0.6; // Vize %40 , Final %60 şeklinde
         if(toplam<=100 && toplam>=90)
         {
             Letters[i]= 4.0 ;

@@ -31,8 +31,7 @@ public class ObsMenu extends UserLogin{
         System.out.println("2) Not Listesine Bak");
         System.out.println("3) Not Listesini Kaydet");
         System.out.println("4) Kullanıcı Bilgilerini Görüntüle");
-        System.out.println("5) Not Ortalamasını Görüntüle ");
-        System.out.println("6) Çıkış Yap");
+        System.out.println("5) Çıkış Yap");
         tercih = scan1.nextInt();
         switch(tercih)
            
@@ -49,10 +48,8 @@ public class ObsMenu extends UserLogin{
             case 4 :
                 ShowUserInfo();
                 continue;
-            case 5 :
-                System.out.println(mean.ShowMeanNote());
-                continue;
-            case 6 : 
+            
+            case 5 : 
                 break;
            
                 

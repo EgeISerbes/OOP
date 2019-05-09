@@ -72,9 +72,10 @@ public class NoteList extends UserLogin  { // Not Listesi için
          for (int i = 0; i < 5; i++) {
             output.println(Dersler[i] + ":");
             
-                output.println("Vize : " + Notlar[i][0][tempID-1]);
+                output.print("Vize : " + Notlar[i][0][tempID-1]);
                  
-                output.println("Final : " + Notlar[i][1][tempID-1]);
+                output.print("    Final : " + Notlar[i][1][tempID-1]);
+                output.println("    Harf : "+meanv.FindLetterNote(Notlar, i));
                  
                 
             

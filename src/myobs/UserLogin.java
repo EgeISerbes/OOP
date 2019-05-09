@@ -49,9 +49,11 @@ public class UserLogin extends UserRegister { // Giriş Yapmak için bu sınıf�
     }
     public void ShowUserInfo() // Kullanıcı Bilgilerini Göstermek için
     {
-        System.out.println(Name[tempID-1][0] + "   ID : "+Name[tempID-1][1]); 
-        System.out.println(Surname[tempID-1][0]);
-        System.out.println(SchoolID[tempID-1][0]);
+        System.out.println("Name : "+Name[tempID-1][0] + "   ID : "+Name[tempID-1][1]); 
+        System.out.println("Surname : " +Surname[tempID-1][0]);
+        System.out.println("SchoolID : "+SchoolID[tempID-1][0]);
+        System.out.println("Department : "+Department[tempID-1][0] );
+        
         
     }
 

@@ -66,7 +66,7 @@ public class NoteList extends UserLogin  { // Not Listesi için
     }
     public void saveList() throws FileNotFoundException, IOException // Not listesini dosyaya kaydetmek için
     {
-         File file = new File("C:\\Users\\egese\\Desktop\\test.txt") ;
+         File file = new File("test.txt") ;
         PrintWriter output = new PrintWriter(file);
       
          for (int i = 0; i < 5; i++) {
